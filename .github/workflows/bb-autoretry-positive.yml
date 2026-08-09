@@ -1,0 +1,12 @@
+name: BB Auto Retry Positive
+on:
+  workflow_dispatch:
+jobs:
+  victim:
+    name: BB_CROSS_REPO_AUTORETRY_JOB_20260810_7F42
+    runs-on: ubuntu-latest
+    steps:
+      - name: BB positive failure step
+        run: |
+          echo "BB_AUTORETRY_SCOPE_A_POSITIVE_20260810_61C5"
+          exit 1
