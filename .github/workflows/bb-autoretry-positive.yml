@@ -1,6 +1,7 @@
 name: BB Auto Retry Positive
 on:
   workflow_dispatch:
+  pull_request:
 jobs:
   victim:
     name: BB_CROSS_REPO_AUTORETRY_JOB_20260810_7F42
